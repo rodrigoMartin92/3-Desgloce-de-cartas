@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 150px;
+    width: 150px;
+}
+.carta{
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    margin: auto;
+    box-shadow: #000 10px;
+}
+.div0{
+    position: relative;
+    border: #000 1px solid;
+}
+.acoplado{
+    display: flex;
+}
+.acoplado .acoplado{
+    position: absolute;
+    transform: translate(10%);
+    transition: 1s;
+}
+.acoplado .acoplado:hover{
+    transform: translate(100%);
+}
+.div1{
+    background: #fa0;
+    z-index: 100;
+}
+.div2{
+    background: #f90;
+    z-index: 200;
+}
+.div3{
+    background: #f80;
+    z-index: 300;
+}
+.div4{
+    background: #f70;
+    z-index: 400;
+}
+.div5{
+    background: #f60;
+    z-index: 500;
+}
+.div6{
+    background: #f50;
+    z-index: 600;
+}
+.div7{
+    background: #f40;
+    z-index: 700;
+}
+.div8{
+    background: #f30;
+    z-index: 800;
+}
+
+/* .div1{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+.div1,.div2,.div3,.div4,.div5,.div6{
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #f90;
+    transform: translate(10%);
+    transition: 1s;
+}
+.div1 div:hover{
+    transform: translate(100%);
+} */
